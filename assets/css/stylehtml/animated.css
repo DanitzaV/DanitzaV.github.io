@@ -1,0 +1,50 @@
+.img-icon{
+    margin-bottom: 0px !important;
+    width: 100px !important;
+}
+
+
+@media (max-width: 375px) {
+    .main.main-raised {
+    margin-top: -207px !important;
+    }
+}
+
+.img-card{
+    width: 80px !important;
+}
+
+.img-back{
+    background-position: center !important;
+}
+
+.profile-page .gallery img {
+    width: 100%;
+    margin-bottom: 0.142rem !important;
+}
+.card:hover {
+    
+    
+}
+.back {
+    display: none;
+}
+.card:hover .front {
+    display: none;
+    transform: rotateY(0deg)
+    
+}
+.card:hover .back {
+    display: block;
+    transform: rotateY(0deg)
+    
+}
+
+.lista-code{
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center
+}
+
