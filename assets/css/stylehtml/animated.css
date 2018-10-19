@@ -39,7 +39,9 @@
     transform: rotateY(0deg)
     
 }
-
+.hide-desktop{
+    display: none !important;
+}
 .lista-code{
     padding: 0;
     display: flex;
@@ -47,4 +49,21 @@
     list-style: none;
     text-align: center
 }
+@media (max-width: 450px) {
+    .img-card{
+        width: 54px !important;
+    }
+    .hide-desktop{
+        display: flex !important;
+    }
+}
+@media (max-width: 768px) {
+    .img-card{
+        width: 54px !important;
+    }
+    .hide-desktop{
+        display: flex !important;
+    }
+}
+
 
